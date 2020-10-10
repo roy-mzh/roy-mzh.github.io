@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">十月，吹着秋天的风想着你 | Hexo</title>
+  <title itemprop="name">十月，吹着秋风想着你 | Hexo</title>
   
     <link rel="shortcut icon" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602337278271&di=72d85a9fa1aa78009f4cec1be39b0f23&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F4677aadc8ae52e411b1b5c5ba3b63ed997cc127e9c72-FhCzCW_fw236">
   
@@ -241,11 +241,11 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1602345277268&amp;di=d1150f26d8e948d6e572c6879c8bcecd&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F20e3d365b6b1809121b31ee46e87f90ce41d453b.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1602345277268&amp;di=d1150f26d8e948d6e572c6879c8bcecd&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F20e3d365b6b1809121b31ee46e87f90ce41d453b.jpg">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1602358907513&amp;di=7c21c1ec2ae55dd1b10d793d25ee038e&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F20e3d365b6b1809121b31ee46e87f90ce41d453b.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1602358907513&amp;di=7c21c1ec2ae55dd1b10d793d25ee038e&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F20e3d365b6b1809121b31ee46e87f90ce41d453b.jpg">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
-      十月，吹着秋天的风想着你</h1>
+      十月，吹着秋风想着你</h1>
       <p class="entry-census">
         <span>
           <a href="No">
@@ -415,12 +415,14 @@
       </p>
     </div>
   </div><!-- .site-info -->
-  <img src="https://s1.ax1x.com/2018/09/29/ilmwIH.png">
+  
+  <!-- <img src="https://s1.ax1x.com/2018/09/29/ilmwIH.png">
 <a href="http://www.beian.miit.gov.cn/"  style="color:#f72b07" target="_blank">粤ICP备20057684号</a>
 <p>
   <img src="https://i.loli.net/2020/07/15/XOtCqBDy7aSQlwp.png ">
   <a href="https://icp.gov.moe" target="_blank">萌ICP备(๑•̀ㅂ•́)</a><a href="https://icp.gov.moe/?keyword=20203645" target="_blank"> 20203645号</a>
-</p>  
+</p>  --> 
+
 </footer>
 
 
@@ -488,25 +490,7 @@ $(document).ready(function() {
   }
 });
 </script>
-<div>
-  <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
-  <script>
-      var now = new Date();
-      function createtime() {
-          var grt= new Date("03/15/2020 00:00:00");
-          now.setTime(now.getTime()+250);
-          days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
-          hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
-          if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-          mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
-          seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-          snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-          document.getElementById("timeDate").innerHTML = "本站运行(*^▽^*) "+dnum+" 天 ";
-          document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
-      }
-  setInterval("createtime()",250);
-  </script>
-  </div>
+
     <div class="openNav no-select" style="height: 50px;">
       <div class="iconflat no-select" style="width: 50px; height: 50px;">
         <div class="icon"></div>
@@ -634,7 +618,7 @@ $(document).ready(function() {
 </style>
 <meting-js
 
-    id="28050619"
+    id="191060"
 
     server="netease"
 
